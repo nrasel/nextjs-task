@@ -1,9 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #efefef;
 }
 
 a {
@@ -14,13 +19,44 @@ a {
 * {
   box-sizing: border-box;
 }
+.header-design {
+  width: 95%;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+.search-btn {
+  border: 1px solid #d6d5d5;
+  border-radius: 4px;
+  margin-left: 3px;
+  width: 3rem;
+  height: 51px;
+}
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  font-size: 0.8rem !important;
+}
+/* .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover {
+  border: 1px solid #d6d5d5 !important;
+  outline: none !important;
+}
+*/
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: #d6d5d5;
+}
+
+.extre-design span i {
+  width: 34px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.upload-btn {
+  background-color: #ed028c;
+  color: white;
+  width: 143px;
+  height: 40px;
+  border-radius: 4px;
+}
+p {
+  font-size: 12px;
 }
